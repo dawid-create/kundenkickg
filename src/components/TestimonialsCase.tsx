@@ -72,19 +72,59 @@ const TestimonialsCase: React.FC<TestimonialsCaseProps> = ({ showCTAButton = fal
 
   return (
     <>
-      <section className="py-16">
+      <section className="py-16 relative overflow-hidden">
+        {/* Background Glow Effects */}
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          {/* Futuristic Energy Grid - Top Layer */}
+          <div className="absolute -top-40 -left-40 w-[500px] h-[500px] bg-gradient-radial from-[#8d3cca]/30 via-[#8d3cca]/15 to-transparent rounded-full blur-3xl animate-pulse"></div>
+          <div className="absolute -top-32 right-1/4 w-96 h-96 bg-gradient-radial from-[#7a35b3]/25 via-[#7a35b3]/12 to-transparent rounded-full blur-2xl animate-pulse delay-700"></div>
+          <div className="absolute -top-20 -right-40 w-[450px] h-[450px] bg-gradient-radial from-[#6b2d9e]/28 via-[#6b2d9e]/14 to-transparent rounded-full blur-3xl animate-pulse delay-1400"></div>
+          
+          {/* Mid-Section Energy Orbs */}
+          <div className="absolute top-1/4 -left-32 w-80 h-80 bg-gradient-radial from-[#8d3cca]/22 via-[#8d3cca]/11 to-transparent rounded-full blur-2xl animate-pulse delay-500"></div>
+          <div className="absolute top-1/3 left-1/3 w-64 h-64 bg-gradient-radial from-[#7a35b3]/18 via-[#7a35b3]/9 to-transparent rounded-full blur-xl animate-pulse delay-1200"></div>
+          <div className="absolute top-1/4 right-1/4 w-72 h-72 bg-gradient-radial from-[#6b2d9e]/20 via-[#6b2d9e]/10 to-transparent rounded-full blur-2xl animate-pulse delay-800"></div>
+          <div className="absolute top-1/3 -right-28 w-88 h-88 bg-gradient-radial from-[#8d3cca]/24 via-[#8d3cca]/12 to-transparent rounded-full blur-2xl animate-pulse delay-1600"></div>
+          
+          {/* Center Energy Core */}
+          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-gradient-radial from-[#7a35b3]/16 via-[#7a35b3]/8 to-transparent rounded-full blur-3xl animate-pulse delay-1000"></div>
+          <div className="absolute top-1/2 -left-24 w-72 h-72 bg-gradient-radial from-[#6b2d9e]/22 via-[#6b2d9e]/11 to-transparent rounded-full blur-2xl animate-pulse delay-300"></div>
+          <div className="absolute top-1/2 -right-24 w-80 h-80 bg-gradient-radial from-[#8d3cca]/20 via-[#8d3cca]/10 to-transparent rounded-full blur-2xl animate-pulse delay-1800"></div>
+          
+          {/* Lower Section Energy Field */}
+          <div className="absolute top-2/3 left-1/4 w-88 h-88 bg-gradient-radial from-[#7a35b3]/26 via-[#7a35b3]/13 to-transparent rounded-full blur-2xl animate-pulse delay-600"></div>
+          <div className="absolute top-3/4 -left-36 w-[420px] h-[420px] bg-gradient-radial from-[#8d3cca]/24 via-[#8d3cca]/12 to-transparent rounded-full blur-3xl animate-pulse delay-1300"></div>
+          <div className="absolute top-2/3 right-1/3 w-76 h-76 bg-gradient-radial from-[#6b2d9e]/18 via-[#6b2d9e]/9 to-transparent rounded-full blur-xl animate-pulse delay-900"></div>
+          
+          {/* Bottom Energy Surge */}
+          <div className="absolute -bottom-40 -left-32 w-[480px] h-[480px] bg-gradient-radial from-[#7a35b3]/28 via-[#7a35b3]/14 to-transparent rounded-full blur-3xl animate-pulse delay-1500"></div>
+          <div className="absolute -bottom-32 left-1/3 w-96 h-96 bg-gradient-radial from-[#8d3cca]/22 via-[#8d3cca]/11 to-transparent rounded-full blur-2xl animate-pulse delay-400"></div>
+          <div className="absolute -bottom-36 -right-40 w-[520px] h-[520px] bg-gradient-radial from-[#6b2d9e]/30 via-[#6b2d9e]/15 to-transparent rounded-full blur-3xl animate-pulse delay-2000"></div>
+          
+          {/* Mobile Optimized Energy Field */}
+          <div className="lg:hidden absolute -top-20 -left-20 w-48 h-48 bg-gradient-radial from-[#8d3cca]/35 via-[#8d3cca]/18 to-transparent rounded-full blur-2xl animate-pulse"></div>
+          <div className="lg:hidden absolute -top-16 -right-16 w-44 h-44 bg-gradient-radial from-[#7a35b3]/30 via-[#7a35b3]/15 to-transparent rounded-full blur-xl animate-pulse delay-800"></div>
+          <div className="lg:hidden absolute top-1/4 -left-12 w-40 h-40 bg-gradient-radial from-[#6b2d9e]/28 via-[#6b2d9e]/14 to-transparent rounded-full blur-xl animate-pulse delay-400"></div>
+          <div className="lg:hidden absolute top-1/3 -right-14 w-42 h-42 bg-gradient-radial from-[#8d3cca]/32 via-[#8d3cca]/16 to-transparent rounded-full blur-xl animate-pulse delay-1200"></div>
+          <div className="lg:hidden absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-36 h-36 bg-gradient-radial from-[#7a35b3]/25 via-[#7a35b3]/12 to-transparent rounded-full blur-xl animate-pulse delay-600"></div>
+          <div className="lg:hidden absolute top-2/3 -left-10 w-38 h-38 bg-gradient-radial from-[#6b2d9e]/30 via-[#6b2d9e]/15 to-transparent rounded-full blur-xl animate-pulse delay-1000"></div>
+          <div className="lg:hidden absolute top-3/4 -right-12 w-44 h-44 bg-gradient-radial from-[#8d3cca]/28 via-[#8d3cca]/14 to-transparent rounded-full blur-xl animate-pulse delay-1600"></div>
+          <div className="lg:hidden absolute -bottom-20 -left-16 w-46 h-46 bg-gradient-radial from-[#7a35b3]/33 via-[#7a35b3]/16 to-transparent rounded-full blur-2xl animate-pulse delay-300"></div>
+          <div className="lg:hidden absolute -bottom-18 -right-18 w-48 h-48 bg-gradient-radial from-[#6b2d9e]/35 via-[#6b2d9e]/18 to-transparent rounded-full blur-2xl animate-pulse delay-1400"></div>
+        </div>
+
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
+          <div className="text-center mb-16 relative z-10">
             <h2 className="text-2xl lg:text-4xl font-bold bg-gradient-to-r from-gray-900 via-[#8d3cca] to-gray-900 bg-clip-text text-transparent mb-6">
               Vor denselben Problemen – heute mit klaren Ergebnissen.
             </h2>
           </div>
 
-          <div className="space-y-12">
+          <div className="space-y-12 relative z-10">
             {cases.map((caseStudy, index) => (
               <div
                 key={index}
-                className="bg-white/80 backdrop-blur-sm rounded-2xl shadow-xl border border-white/20 p-8 lg:p-12 hover:bg-white/90 hover:shadow-2xl transition-all duration-300"
+                className="bg-white/85 backdrop-blur-sm rounded-2xl shadow-2xl border border-white/30 p-8 lg:p-12 hover:bg-white/95 hover:shadow-[0_25px_50px_-12px_rgba(0,0,0,0.4)] transition-all duration-300"
               >
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
                   {/* Mobile Title - Only visible on mobile, positioned above everything */}

@@ -52,6 +52,7 @@ const Hero: React.FC = () => {
                   src="https://www.youtube-nocookie.com/embed/y1ypLpwH5Ug?si=NjJvm0Lkc4S8Ji6y&controls=0" 
                   title="YouTube video player" 
                   frameBorder="0" 
+                 loading="lazy"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                   referrerPolicy="strict-origin-when-cross-origin" 
                   allowFullScreen

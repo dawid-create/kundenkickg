@@ -53,6 +53,7 @@ const VideoTestimonials: React.FC = () => {
                       title={testimonial.name}
                       className="w-full h-full"
                       frameBorder="0"
+                     loading="lazy"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                       allowFullScreen
                     />

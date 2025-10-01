@@ -1,10 +1,19 @@
 import React from 'react';
+import { useEffect } from 'react';
 import Header from './Header';
 import PageHero from './PageHero';
 import Footer from './Footer';
 import { Users, Target, Award, Heart } from 'lucide-react';
 
 const UeberUns: React.FC = () => {
+  useEffect(() => {
+    document.title = 'Über Uns - Das Team hinter KundenKick | Studio Marketing';
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute('content', 'Lernen Sie das KundenKick-Team kennen. Experten für Studio-Marketing mit 5+ Jahren Erfahrung und 50+ erfolgreichen Kampagnen.');
+    }
+  }, []);
+
   return (
     <div className="min-h-screen bg-white">
       <Header />
@@ -35,7 +44,7 @@ Seit Jahren unterstützen wir Studios dabei, ihre Online-Präsenz zu stärken, m
             <div className="relative">
               <img
                 src="/images/Kampfsport-stock.webp"
-                alt="Team bei der Arbeit"
+                alt="Kampfsport Training"
                 className="w-full h-80 object-cover rounded-2xl shadow-xl"
                loading="lazy"
               />

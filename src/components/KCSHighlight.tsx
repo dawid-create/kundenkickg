@@ -12,7 +12,7 @@ const KCSHighlight: React.FC = () => {
             {/* Title - Always first on mobile */}
             <div className="lg:hidden">
               <h2 className="text-3xl lg:text-4xl font-bold leading-tight">
-                290% mehr Probetrainings in 2 Monaten
+                290% mehr Leads in 2 Monaten
               </h2>
             </div>
 

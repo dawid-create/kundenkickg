@@ -1,4 +1,5 @@
 import React from 'react';
+import { useEffect } from 'react';
 import Header from './Header';
 import PageHero from './PageHero';
 import Footer from './Footer';
@@ -6,6 +7,14 @@ import TestimonialsCase from './TestimonialsCase';
 import VideoTestimonials from './VideoTestimonials';
 
 const Referenzen: React.FC = () => {
+  useEffect(() => {
+    document.title = 'Referenzen & Erfolgsgeschichten | KundenKick';
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute('content', 'Echte Erfolgsgeschichten: Wie Studios mit KundenKick 64+ Probetrainings/Monat erreichen. Sehen Sie unsere Case Studies und Kundenstimmen.');
+    }
+  }, []);
+
   return (
     <div className="min-h-screen bg-white">
       <Header />

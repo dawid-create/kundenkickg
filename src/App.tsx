@@ -1,4 +1,5 @@
 import React from 'react';
+import { useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Hero from './components/Hero';
@@ -16,9 +17,17 @@ import Impressum from './components/Impressum';
 import Referenzen from './components/Referenzen';
 import UeberUns from './components/UeberUns';
 import Datenschutz from './components/Datenschutz';
+import ROICalculator from './components/ROICalculator';
 
 const HomePage = () => (
   <>
+    {useEffect(() => {
+      document.title = 'Studios: Mehr Probetrainings & Mitgliedschaften | KundenKick';
+      const metaDescription = document.querySelector('meta[name="description"]');
+      if (metaDescription) {
+        metaDescription.setAttribute('content', 'Mehr Anfragen, mehr Termine, mehr Mitglieder. KundenKick skaliert Studios mit Performance-Ads & Landingpages. Case: 64 Probetrainings/Monat bei 337€ Budget.');
+      }
+    }, [])}
     <Header />
     
     {/* Hero Section */}
@@ -85,6 +94,7 @@ function App() {
           <Route path="/referenzen" element={<Referenzen />} />
           <Route path="/ueber-uns" element={<UeberUns />} />
           <Route path="/datenschutz" element={<Datenschutz />} />
+          <Route path="/roi-rechner" element={<ROICalculator />} />
         </Routes>
       </div>
     </Router>

@@ -48,7 +48,7 @@ const FAQ: React.FC = () => {
   };
 
   return (
-    <section className="py-16">
+    <section id="faq" className="py-16">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-2xl lg:text-4xl font-bold bg-gradient-to-r from-gray-900 via-[#8d3cca] to-gray-900 bg-clip-text text-transparent mb-6">

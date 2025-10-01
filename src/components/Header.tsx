@@ -45,15 +45,18 @@ const Header: React.FC = () => {
         }`}>
           {/* Logo */}
           <div className="flex items-center">
-            <img 
-              src="/images/Logo KundenKick.png" 
-              alt="KundenKick Logo" 
-             className={`w-auto transition-all duration-300 ${
-               isScrolled 
-                 ? 'h-40' 
-                : 'h-40 lg:h-44'
-             }`}
-            />
+            <a href="/" className="flex items-center">
+              <img 
+                src="/images/Logo KundenKick.png" 
+                alt="KundenKick Logo" 
+               className={`w-auto transition-all duration-300 hover:scale-105 ${
+                 isScrolled 
+                   ? 'h-40' 
+                  : 'h-40 lg:h-44'
+               }`}
+               loading="eager"
+              />
+            </a>
           </div>
 
           {/* Navigation */}
@@ -69,6 +72,9 @@ const Header: React.FC = () => {
             </a>
             <a href="/ueber-uns" className="text-gray-700 hover:text-[#8d3cca] transition-colors duration-200 font-medium">
               Über Uns
+            </a>
+            <a href="/roi-rechner" className="text-gray-700 hover:text-[#8d3cca] transition-colors duration-200 font-medium">
+              ROI Rechner
             </a>
           </nav>
 
@@ -124,6 +130,13 @@ const Header: React.FC = () => {
                 className="block text-gray-700 hover:text-[#8d3cca] transition-colors duration-200 font-medium py-2"
               >
                 Über Uns
+              </a>
+              <a 
+                href="/roi-rechner" 
+                onClick={closeMobileMenu}
+                className="block text-gray-700 hover:text-[#8d3cca] transition-colors duration-200 font-medium py-2"
+              >
+                ROI Rechner
               </a>
               <button 
                 onClick={handleCTAClick}

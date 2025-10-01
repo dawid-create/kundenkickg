@@ -1,9 +1,18 @@
 import React from 'react';
+import { useEffect } from 'react';
 import Header from './Header';
 import PageHero from './PageHero';
 import Footer from './Footer';
 
 const Impressum: React.FC = () => {
+  useEffect(() => {
+    document.title = 'Impressum | KundenKick';
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute('content', 'Impressum und rechtliche Informationen von KundenKick - Ihre Agentur für Studio-Marketing und Mitgliedergewinnung.');
+    }
+  }, []);
+
   return (
     <div className="min-h-screen bg-white">
       <Header />

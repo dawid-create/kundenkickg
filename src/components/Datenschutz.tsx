@@ -1,9 +1,18 @@
 import React from 'react';
+import { useEffect } from 'react';
 import Header from './Header';
 import PageHero from './PageHero';
 import Footer from './Footer';
 
 const Datenschutz: React.FC = () => {
+  useEffect(() => {
+    document.title = 'Datenschutzerklärung | KundenKick';
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute('content', 'Datenschutzerklärung von KundenKick - Informationen zum Schutz Ihrer persönlichen Daten und zur DSGVO-konformen Datenverarbeitung.');
+    }
+  }, []);
+
   return (
     <div className="min-h-screen bg-white">
       <Header />
