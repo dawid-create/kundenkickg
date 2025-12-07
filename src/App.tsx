@@ -18,6 +18,8 @@ import Referenzen from './components/Referenzen';
 import UeberUns from './components/UeberUns';
 import Datenschutz from './components/Datenschutz';
 import ROICalculator from './components/ROICalculator';
+import BraunschweigLanding from './components/BraunschweigLanding';
+import VereinsLanding from './components/VereinsLanding';
 
 const HomePage = () => (
   <>
@@ -90,11 +92,13 @@ function App() {
       <div className="min-h-screen bg-white">
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="/website-fuer-vereine" element={<VereinsLanding />} />
           <Route path="/impressum" element={<Impressum />} />
           <Route path="/referenzen" element={<Referenzen />} />
           <Route path="/ueber-uns" element={<UeberUns />} />
           <Route path="/datenschutz" element={<Datenschutz />} />
           <Route path="/roi-rechner" element={<ROICalculator />} />
+          <Route path="/online-marketing-agentur-braunschweig" element={<BraunschweigLanding />} />
         </Routes>
       </div>
     </Router>

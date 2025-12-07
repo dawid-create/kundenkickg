@@ -37,19 +37,19 @@ const MethodSteps: React.FC = () => {
     {
       icon: <Search className="w-8 h-8 text-[#8d3cca]" />,
       title: "Analyse & Benchmarking",
-      description: "Wir analysieren dein Studio, deine Zielgruppe und die Konkurrenz, um den nächstbesten Schritt zu identifizieren.",
+      description: "Wir analysieren dein Studio, deine Stärken und Zielgruppe und entwickeln daraus ein klares Alleinstellungsmerkmal gegenüber deiner Konkurrenz.",
       image: "/images/StockImageMagnifyingGlass.png"
     },
     {
       icon: <Target className="w-8 h-8 text-[#8d3cca]" />,
-      title: "MattenMagnet Methode",
-      description: "Zuerst bei aktiven Suchenden sichtbar werden, dann organische Reichweite aufbauen und schließlich Skalierung.",
+      title: "Erst Hot Traffic, dann Cold Traffic.",
+      description: "Erst aktive Suchende abholen, danach passive Zielgruppen für zusätzlich qualifizierte Kunden erschließen.",
       image: "/images/Stock Image Goolge.png"
     },
     {
       icon: <TrendingUp className="w-8 h-8 text-[#8d3cca]" />,
-      title: "Skalierung & Optimierung",
-      description: "A/B-Testing, laufende Optimierung und Anpassung der Strategie für noch mehr Probetrainings & Mitglieder.",
+      title: "Skalierung & Automatisierung",
+      description: "A/B-Testing und laufende Optimierung der Strategien. Anschließend Automatisierungen zur Zeiteinsparung und stabilen Skalierung.",
       image: "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
     }
   ];
@@ -62,8 +62,7 @@ const MethodSteps: React.FC = () => {
             Die MattenMagnet-Methode
           </h2>
           <p className="text-lg text-gray-600 max-w-4xl mx-auto leading-relaxed">
-            Aus über 20 Einblicken in Studios und mehr als 50 Kampagnen haben wir eine bewährte Methode entwickelt, 
-            die Studios dabei hilft, bis zu 36 zusätzliche Anmeldungen pro Monat zu generieren.
+            Aus 30+ Studio-Analysen und 50 Kampagnen entstand eine Methode, die bis zu 36 neue Anmeldungen pro Monat bringt.
           </p>
         </div>
 

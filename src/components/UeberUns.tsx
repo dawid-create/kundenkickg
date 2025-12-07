@@ -141,7 +141,7 @@ Seit Jahren unterstützen wir Studios dabei, ihre Online-Präsenz zu stärken, m
                 <div className="bg-white p-6 rounded-xl shadow-sm">
                   <h4 className="font-bold text-gray-900 mb-2">Erfolge</h4>
                   <p className="text-gray-600">
-                    Über 50 erfolgreiche Kampagnen und mehr als 15 Studios beim Wachstum unterstützt.
+                    Über 50 erfolgreiche Kampagnen und mehr als 25 Studio Inhabern beim Wachstum unterstützt.
                   </p>
                 </div>
               </div>

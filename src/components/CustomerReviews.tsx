@@ -19,12 +19,12 @@ const CustomerReviews: React.FC = () => {
       company: "Merch Attack",
       reviewer: "Michael Siewert",
       text: "Die Zusammenarbeit mit Dawid war hervorragend – meine Wünsche wurden optimal umgesetzt und seine Vorschläge haben zu besseren Ergebnissen geführt.",
-      image: "/images/11.png"
+      image: "/images/Client Logos/11.png"
     },
     {
       company: "No Limit Fight Club",
       reviewer: "Moncef Mhadbi",
-      text: "Dawid unterstützt uns nicht nur bei der Website, sondern auch bei allen anderen Online-Themen – seit der Zusammenarbeit boomt unser Studio wie nie zuvor.",
+      text: "Dawid unterstützt uns nicht nur bei der Website, sondern auch bei allen anderen Online-Themen, seit der Zusammenarbeit Wächst unser Studio wie nie zuvor.",
       image: "/images/moncef.jpg"
     },
     {

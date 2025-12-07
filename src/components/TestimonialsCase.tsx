@@ -20,7 +20,7 @@ const TestimonialsCase: React.FC<TestimonialsCaseProps> = ({ showCTAButton = fal
         "+300 % mehr organische Klicks zusätzlich, ganz ohne Ads"
       ],
       image: "/images/NLFC Results.webp",
-      logo: "/images/9.png"
+      logo: "/images/Client Logos/9.png"
     },
     {
       company: "Fit and Fight 38",
@@ -37,28 +37,40 @@ const TestimonialsCase: React.FC<TestimonialsCaseProps> = ({ showCTAButton = fal
     },
     {
       company: "KMRSD",
-      quote: "Innerhalb von 2 Monaten war mein Studio voll – und ich musste sogar umziehen!",
-      intro: "Leadstruktur neu aufgebaut, Texte emotionalisiert und keyword-optimiert; Website-Relaunch mit klarer Botschaft.",
+      quote: "Innerhalb von 2 Monaten war mein Studio voll und ich musste sogar umziehen!",
+      intro: "Texte emotionalisiert und keyword-optimiert; Website-Relaunch mit klarem Alleinstellungsmerkmal.",
       kpis: [
-        "+142 % mehr Probetrainings im ersten Monat",
-        "+233 % mehr verkaufte Verträge im zweiten Monat",
-        "Studio voll → Umzug in größere Location"
+      "Mitglieder Zahl verdreifacht von 20 auf 60 innerhalb 7 Monate",
+        "+233 % mehr verkaufte Verträge bereits ab Monat zwei",
+        "Studio voll → Umzug in größere Location + Preise erhöht"
       ],
       image: "/images/KMRSD Results.webp",
-      logo: "/images/5.png"
+      logo: "/images/Client Logos/5.png"
     },
     {
       company: "Grappling Fight School Frankfurt",
-      quote: "Von 5 auf 32 Probetrainings in einem Monat – mein Studio ist jetzt in ganz Frankfurt sichtbar!",
-      intro: "Gezielte Google Ads + lokale SEO, kombiniert mit Conversion-optimierten Landingpages.",
+      quote: "Von 5 auf 32 Probetrainings in einem Monat, mein Studio ist jetzt in ganz Frankfurt sichtbar!",
+      intro: "Hybrid aus Google Ads + lokale SEO, kombiniert mit Conversion-optimierter Landingpage.",
       kpis: [
         "Probetrainings von 5 auf 32 in nur einem Monat (+540 %)",
-        "Ad Budget: 410 €",
-        "+50 % mehr organische Websitebesuche",
-        "Marktanteil, Reichweite & Autorität in Frankfurt gesteigert"
+        "Mit einem Ad Budget von 410€ und somit 12 Euro pro Probetraining",
+        "Nach 3 Monaten Ads pausiert – Wachstum trotzdem von 5 auf 25 Probetrainings pro Monat",
+        "Sichtbarkeit, Marktanteil und Autorität in Frankfurt spürbar erhöht"
       ],
       image: "/images/GFF Results.webp",
-      logo: "/images/3.png"
+      logo: "/images/Client Logos/3.png"
+    },
+    {
+      company: "World Of Defense",
+      quote: "Zuerst war ich Skeptisch aber die Anfragen haben sich spürbar erhöht!",
+      intro: "Mehr Autorität und klares Alleinstellungsmerkmal dank Website Relaunch ohne Ads.",
+      kpis: [
+        "Bereits im ersten Monat Anfragen Verdoppelt von 20 auf 42",
+        "Platz #1 für die wichtigsten Keywörter in Essen",
+        "Studio als beste Wahl positioniert und Konkurrenz inhaltlich abgehängt"
+      ],
+      image: "/images/world-of-defense-resultate.png",
+      logo: "/images/Client Logos/14.png",
     }
   ];
 
@@ -116,7 +128,7 @@ const TestimonialsCase: React.FC<TestimonialsCaseProps> = ({ showCTAButton = fal
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16 relative z-10">
             <h2 className="text-2xl lg:text-4xl font-bold bg-gradient-to-r from-gray-900 via-[#8d3cca] to-gray-900 bg-clip-text text-transparent mb-6">
-              Vor denselben Problemen – heute mit klaren Ergebnissen.
+              Deine Probleme, ihre Resultate.
             </h2>
           </div>
 

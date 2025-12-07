@@ -1,82 +1,49 @@
 import React from 'react';
 
 const LogoShowcase: React.FC = () => {
-  // Reuse the same logos from LogosSection
   const logos = [
     {
-      name: "Logo 1",
-      src: "/images/15.png",
-      alt: "Client Logo 1"
+      name: "World Of Defense",
+      src: "/images/WorldOfDefense.png",
+      alt: "World Of Defense Logo"
     },
     {
-      name: "Logo 2",
-      src: "/images/2.png",
-      alt: "Client Logo 2"
+      name: "NLFC",
+      src: "/images/NLFC.png",
+      alt: "NLFC Logo"
     },
     {
-      name: "Logo 3",
-      src: "/images/3.png",
-      alt: "Client Logo 3"
+      name: "KMRSD",
+      src: "/images/KMRSD.png",
+      alt: "KMRSD Logo"
     },
     {
-      name: "Logo 4",
-      src: "/images/8.png",
-      alt: "Client Logo 4"
+      name: "Kampfsport Winter",
+      src: "/images/KampfsportWinter.png",
+      alt: "Kampfsport Winter Logo"
     },
     {
-      name: "Logo 5",
-      src: "/images/5.png",
-      alt: "Client Logo 5"
+      name: "Kali Silat Evolution",
+      src: "/images/Kali Silat Evolution.png",
+      alt: "Kali Silat Evolution Logo"
     },
     {
-      name: "Logo 12",
-      src: "/images/12.png",
-      alt: "Client Logo 12"
+      name: "EWTO",
+      src: "/images/EWTO.png",
+      alt: "EWTO Logo"
     },
     {
-      name: "Logo 13",
-      src: "/images/10.png",
-      alt: "Client Logo 13"
+      name: "CrossFit Böblingen",
+      src: "/images/CrossFitBöblingen.png",
+      alt: "CrossFit Böblingen Logo"
     },
     {
-      name: "Logo 6",
-      src: "/images/9.png",
-      alt: "Client Logo 6"
+      name: "Come Back Sports",
+      src: "/images/ComeBackSports.png",
+      alt: "Come Back Sports Logo"
     },
     {
-      name: "Logo 14",
-      src: "/images/14.png",
-      alt: "Client Logo 14"
-    },
-    {
-      name: "Logo 15",
-      src: "/images/13.png",
-      alt: "Client Logo 15"
-    },
-    {
-      name: "Logo 7",
-      src: "/images/7.png",
-      alt: "Client Logo 7"
-    },
-    {
-      name: "Logo 8",
-      src: "/images/4.png",
-      alt: "Client Logo 8"
-    },
-    {
-      name: "Logo 9",
-      src: "/images/6.png",
-      alt: "Client Logo 9"
-    },
-    {
-      name: "Logo 10",
-      src: "/images/1.png",
-      alt: "Client Logo 10"
-    },
-    {
-      name: "Logo 11",
-      src: "/images/11.png",
-      alt: "Client Logo 11"
+ 
     }
   ];
 
