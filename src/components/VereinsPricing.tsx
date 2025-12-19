@@ -7,14 +7,14 @@ const VereinsPricing: React.FC = () => {
   const offers = [
     {
       tier: 'Offer 1',
-      title: 'Neuanfänger',
-      tagline: 'Für Schulen, die schnell und günstig eine saubere Website wollen, die nicht peinlich aussieht und endlich Anfragen reinbringt.',
+      title: 'Rundumsorglos',
+      tagline: 'Für Studios, die schnell und günstig eine saubere Website wollen, die mehr Anfragen reinbringt.',
       price: '1.000 €',
       priceNote: '= 85 € x 12 Monate',
       benefits: [
         'Professionelles Design, das deine Schule stark präsentiert.',
-        'Struktur und Texte, die auf Probetrainings ausgerichtet sind.',
-        'Schnelle Umsetzung, damit deine neue Seite in wenigen Tagen online ist.',
+        'Verkaufsoptimierte Texte, die mehr Probetrainings bringen.',
+        'Laufender Support mit Updates und 2–3 Anpassungen pro Monat.',
       ],
       details: [
         'Onboarding Call mit gezielten Fragen zu Positionierung und Zielgruppe.',
@@ -29,46 +29,46 @@ const VereinsPricing: React.FC = () => {
     },
     {
       tier: 'Offer 2',
-      title: 'Grow Angebot',
-      tagline: 'Für Schulen, die mehr Sichtbarkeit wollen und bei Google nach oben wollen.',
+      title: 'Vertriebssystem',
+      tagline: 'Für Studios, die bei Google nach oben wollen.',
       price: '1.500 €',
       priceNote: '= 125 € x 12 Monate',
       benefits: [
-        'SEO optimierte Seitenstruktur für dein Einzugsgebiet.',
-        'Gezielte Keyword Ausrichtung für Kampfsportschulen.',
-        'Technische Basis für besseres Ranking und saubere Messbarkeit.',
+        'SEO Struktur, die Google versteht und nach vorne schiebt.',
+        'Keyword Optimierung für dein Einzugsgebiet.',
+        'Messbare Rankings, mehr Sichtbarkeit, mehr Anfragen.',
       ],
       details: [
         'Alles aus Offer 1 + folgende Zusätze:',
         'Auswahl und Optimierung relevanter Keywords für deine Region und deinen Stil.',
         'On Page SEO Optimierung (Titel, Meta, Überschriften, interne Verlinkung).',
-        'Einrichtung von SEO freundlicher Seitenstruktur und URLs.',
+        'Einrichtung von Lokalem SEO freundlicher Seitenstruktur und URLs.',
         'Setup von Analytics und Tracking zur Auswertung der Besucherzahlen.',
         'Erstellung und Einbindung einer Sitemap für Google.',
       ],
       featured: true,
-      guarantee: 'Google und Keywords optimiert, verbessertes Ranking garantiert.',
+      guarantee: 'Dein Ranking steigt. Fertig.',
     },
     {
       tier: 'Offer 3',
-      title: 'Scale Angebot',
-      tagline: 'Für Studios, die konstant neue Probetrainings wollen, ohne mehr Zeit zu investieren.',
+      title: 'Google Dominator',
+      tagline: 'Für Studios, die konstant mehr Probetrainings wollen.',
       price: '1.750 €',
       priceNote: '= 145 € x 12 Monate',
       benefits: [
-        'Google Business Profil optimiert auf Probetrainings.',
+        'Google Business Profil auf Probetrainings optimiert.',
         'Website und Profil arbeiten zusammen wie ein System.',
-        'Mehr Sichtbarkeit, mehr Anfragen, mehr langfristige Mitglieder.',
+        'Mehr Sichtbarkeit, mehr Anfragen, langfristig.',
       ],
       details: [
         'Alles aus Offer 1 und 2 + folgende Zusätze:',
         'Optimierung deines Google Business Profils auf Sichtbarkeit und Probetrainings.',
         'Abgestimmte Texte und Bilder, die dein Dojo stark und vertrauenswürdig wirken lassen.',
         'Verknüpfung zwischen Website und Google Profil für einen nahtlosen Weg zur Anfrage.',
-        'Einrichtung von Conversion Tracking für Probetrainings Anfragen.',
+        'Google-Maps Konkurrenzanalyse und Optimierung, um klar vor der Konkurrenz zu stehen.',
       ],
       featured: false,
-      guarantee: 'Mehr Probetrainings langfristig garantiert. Wenn du nicht merkst, dass du mehr Anfragen bekommst, arbeite ich weiter ohne zusätzliche Kosten.',
+      guarantee: 'Mehr Probetrainings, sonst arbeite ich weiter ohne Zusatzkosten.',
     },
   ];
 
@@ -126,14 +126,18 @@ const VereinsPricing: React.FC = () => {
                     {offer.tagline}
                   </p>
 
-                  <div className="mb-6">
-                    <div className="text-3xl font-bold text-white">
-                      {offer.price}
-                    </div>
-                    <div className="text-sm text-gray-400">
-                      {offer.priceNote}
-                    </div>
-                  </div>
+<div className="mb-6">
+  <div className="text-3xl font-bold text-white">
+    {offer.price}
+  </div>
+  <div className="text-sm text-gray-400">
+    {offer.priceNote}
+  </div>
+  <div className="text-sm text-gray-400 mt-1">
+    Einmalige Einrichtungsgebühr von 300 €
+  </div>
+</div>
+
 
                   <ul className="space-y-3 mb-6 flex-grow">
                     {offer.benefits.map((benefit, i) => (
